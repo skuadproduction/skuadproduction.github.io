@@ -1,0 +1,14 @@
+#content {
+	margin-top: 15vh;
+	margin-bottom: 27vh;
+}
+
+.card {
+	background-color: transparent !important;
+	border: 0 !important;
+	color: white !important;
+}
+
+img {
+	border-radius: 50%;
+}
