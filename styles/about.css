@@ -6,9 +6,20 @@
 .card {
 	background-color: transparent !important;
 	border: 0 !important;
+	display: inline-block !important;
 	color: white !important;
 }
 
-img {
+.photo_container{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: contents;
+}
+
+.photo_container>img {
+	width: inherit;
+	height: inherit;
+	object-fit: cover;
 	border-radius: 50%;
 }
